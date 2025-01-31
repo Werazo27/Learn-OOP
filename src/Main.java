@@ -5,8 +5,8 @@ public class Main {
 
         Inventory inventory = new Inventory();
 
-        Item apples = new Item("Apples", 20);
-        Item sword = new Item("Sword", 2);
+        Fruit apples = new Fruit("Apples", 20, "Fuji", "Redish");
+        Weapon sword = new Weapon("Sword", 2, "Melee", 15);
 
         inventory.addItem(apples);
         inventory.addItem(sword);
