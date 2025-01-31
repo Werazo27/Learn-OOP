@@ -9,7 +9,11 @@ public class Fruit extends Item {
     public String getColor() { return color; }
 
     @Override
-    public String toString() {
-        return "Item: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType() + ", Color: " + getColor();
+    public void displayInfo() {
+        System.out.println("Fruit: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType() + ", Color: " + getColor());
     }
+
+//    public String displayInfo() {
+//        return "Fruit: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType() + ", Color: " + getColor();
+//    } this version would be to allow more flexibility of usage instead of forcing print with void
 }

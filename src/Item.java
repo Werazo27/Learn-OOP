@@ -1,4 +1,4 @@
-public class Item {
+public abstract class Item {
 
     private String name;
     private int quantity;
@@ -20,8 +20,7 @@ public class Item {
 
     public String getType() { return type; }
 
-    @Override
-    public String toString() {
-        return "Item: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType();
-    }
+    public abstract void displayInfo();
+
+    //public abstract void displayInfo(); Explained in Fruit
 }
