@@ -7,4 +7,9 @@ public class Weapon extends Item {
     }
 
     public int getDamage() { return damage; }
+
+    @Override
+    public String toString() {
+        return "Item: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType() + ", Damage: " + getDamage();
+    }
 }

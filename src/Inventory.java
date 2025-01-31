@@ -14,7 +14,7 @@ public class Inventory {
 
     public void displayInventory() {
         for (Item item : items) {
-            System.out.println("Item: " + item.getName() + ", Quantity: " + item.getQuantity() + ", Type: "  + item.getType());
+            System.out.println(item.toString());
         }
     }
 }

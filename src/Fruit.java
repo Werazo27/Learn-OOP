@@ -7,4 +7,9 @@ public class Fruit extends Item {
     }
 
     public String getColor() { return color; }
+
+    @Override
+    public String toString() {
+        return "Item: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType() + ", Color: " + getColor();
+    }
 }

@@ -19,4 +19,9 @@ public class Item {
     }
 
     public String getType() { return type; }
+
+    @Override
+    public String toString() {
+        return "Item: " + getName() + ", Quantity: " + getQuantity() + ", Type: "  + getType();
+    }
 }
