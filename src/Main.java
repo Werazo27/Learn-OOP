@@ -12,5 +12,7 @@ public class Main {
         inventory.addItem(sword);
 
         inventory.displayInventory();
+
+        inventory.displayInventory("Melee");
     }
 }
