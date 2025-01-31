@@ -1,4 +1,4 @@
-public abstract class Item {
+public abstract class Item implements ItemMethods {
 
     private String name;
     private int quantity;
